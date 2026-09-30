@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: manosaathi
+    runtime: python
+    buildCommand: pip install -r backend/requirements.txt
+    startCommand: gunicorn backend.app:app --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    envVars:
+      - key: ADMIN_USERNAME
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+      - key: MANOSAATHI_SECRET
+        generateValue: true
+      - key: ANTHROPIC_API_KEY
+        sync: false

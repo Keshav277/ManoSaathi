@@ -1,0 +1,140 @@
+{
+  "en": {
+    "greeting": [
+      "Hi, I'm ManoSaathi. You can tell me what's on your mind here — nothing you share is saved or judged.",
+      "Hello, I'm glad you're here. What's on your mind today?",
+      "Hey there. How are you feeling right now?"
+    ],
+    "thanks": [
+      "You're welcome. I'm here whenever you want to talk again.",
+      "Anytime. Take care of yourself.",
+      "Glad I could help a little. I'm here if you want to talk more."
+    ],
+    "anxiety": [
+      "Anxiety like this is your body reacting to stress, not a flaw. Try breathing in for 4 seconds, holding for 4, and out for 6 — repeat it three times.",
+      "When worry spikes, try naming five things you can see around you. It helps bring your mind back to the present.",
+      "Anxious thoughts feel very loud, but they aren't facts. Want to tell me what is worrying you most?"
+    ],
+    "low_mood": [
+      "Feeling heavy or low is okay to sit with; it doesn't need to be ignored. Try telling one person you trust how you're feeling today, even briefly.",
+      "I'm sorry it feels heavy right now. You don't have to push through it alone. What has been weighing on you?",
+      "Low days happen, and they do shift. Even a short walk in some sunlight can take a little edge off."
+    ],
+    "sleep": [
+      "A racing mind at night is very common under stress. Try switching off screens an hour before bed and writing down what's on your mind first.",
+      "Poor sleep makes everything feel harder. Try keeping a fixed wake-up time, even after a bad night.",
+      "If your mind races at night, keep a notebook by the bed and put the thoughts on paper before sleeping."
+    ],
+    "exam_stress": [
+      "One result doesn't decide your worth, even though it feels huge right now. Try studying in 25-minute blocks with a 5-minute break in between.",
+      "Exam pressure is real. Start with the smallest topic on your list to build momentum.",
+      "You've prepared more than you think. Short breaks and enough sleep help more than last-minute cramming."
+    ],
+    "anger": [
+      "Anger often sits on top of another feeling, like hurt or fear. Try counting to ten and stepping out of the room before responding.",
+      "It's okay to be angry. Give yourself a few minutes away from the situation before you respond.",
+      "What happened that made you this angry? Talking it out often takes the heat down."
+    ],
+    "loneliness": [
+      "You can feel lonely even around people — that's real, not imagined. Try sending one small message to someone you trust today.",
+      "Feeling alone hurts. Is there one person you used to talk to that you could reach out to today?",
+      "I'm here with you right now. What has made you feel most alone lately?"
+    ],
+    "family": [
+      "Tension at home is common, and you're not the only one dealing with it. Try picking the one issue that bothers you most and talking about only that.",
+      "Family conflict can drain you. What part of it is bothering you the most right now?",
+      "It's hard when home doesn't feel calm. Would it help to think about what you'd want to say to them?"
+    ],
+    "addiction": [
+      "Struggling with substance use is a health issue, not a weakness, and help exists. Tele MANAS (14416) can also guide you to the nearest de-addiction centre.",
+      "Wanting to change a habit takes courage. Small steps, like delaying the first urge by 10 minutes, can help.",
+      "You're not weak for struggling with this. Would you like to talk about what triggers it for you?"
+    ],
+    "crisis": [
+      "I'm really glad you told me this. Please reach out right now — Tele MANAS (14416, call or SMS, free, 24x7) or KIRAN (1800-599-0019) — and if you can, tell someone near you immediately.",
+      "What you're feeling matters, and you don't have to face it alone. Please call Tele MANAS at 14416 (free, 24x7) or 112 right now, and tell someone near you.",
+      "I'm really concerned about you. Please reach out to KIRAN (1800-599-0019) or Tele MANAS (14416) right now, and stay with someone you trust. If you might act on these thoughts, call 112."
+    ],
+    "smalltalk": [
+      "I'm listening, take your time. Tell me a bit more about what's going on whenever you're ready.",
+      "I'm here. Tell me more about how your day has been.",
+      "Thanks for sharing. What's been on your mind lately?"
+    ],
+    "fallback": [
+      "Thank you for telling me that. Can you share a bit more about what's going on?",
+      "I'm listening. What part of this is hardest for you right now?",
+      "That sounds like a lot to carry. How long have you been feeling this way?",
+      "I want to understand better. What happened that brought this up today?",
+      "I'm here with you. Would you like to tell me more, or try a short breathing exercise together?"
+    ]
+  },
+  "hi": {
+    "greeting": [
+      "नमस्ते, मैं मनोसाथी हूं। जो मन में है बताइए — यहां कुछ भी सेव नहीं होता और कोई जज नहीं करेगा।",
+      "नमस्ते, आपसे बात करके अच्छा लगा। आज मन में क्या चल रहा है?",
+      "हेलो! अभी आप कैसा महसूस कर रहे हैं?"
+    ],
+    "thanks": [
+      "आपका स्वागत है। जब भी बात करनी हो, मैं यहीं हूं।",
+      "कोई बात नहीं। अपना ख्याल रखिए।",
+      "मदद कर पाया, अच्छा लगा। मन हो तो और बात कीजिए।"
+    ],
+    "anxiety": [
+      "ऐसी सोच और घबराहट आम है, कोई कमी नहीं। 4 सेकंड सांस लें, 4 रोकें, 6 सेकंड में छोड़ें — 3 बार दोहराएं।",
+      "जब घबराहट बढ़े, आसपास की पांच चीज़ें देखकर उनके नाम लीजिए। इससे मन वर्तमान में लौटता है।",
+      "चिंता भरे विचार तेज़ आवाज़ में आते हैं, पर वे सच नहीं होते। सबसे ज़्यादा किस बात की चिंता है?"
+    ],
+    "low_mood": [
+      "मन का भारी या उदास होना ठीक है, इसे नज़रअंदाज़ न करें। आज किसी अपने से थोड़ा बहुत ज़रूर बताइए।",
+      "सुनकर बुरा लगा कि मन इतना भारी है। आप अकेले इसे न झेलें। क्या बात परेशान कर रही है?",
+      "उदास दिन आते हैं और बदल भी जाते हैं। थोड़ी धूप में टहलना कुछ राहत दे सकता है।"
+    ],
+    "sleep": [
+      "तनाव में रात को दिमाग दौड़ना बहुत सामान्य है। सोने से थोड़ा पहले स्क्रीन बंद करके देखिए।",
+      "नींद कम हो तो सब कुछ मुश्किल लगता है। खराब रात के बाद भी जागने का समय एक ही रखिए।",
+      "अगर रात को दिमाग दौड़ता है तो बिस्तर के पास डायरी रखिए और विचार लिखकर सो जाइए।"
+    ],
+    "exam_stress": [
+      "एक नतीजा आपकी कीमत तय नहीं करता, भले ही अभी बहुत बड़ा लगे। पढ़ाई को 25 मिनट के हिस्सों में बांटें।",
+      "परीक्षा का दबाव असली है। सबसे छोटे टॉपिक से शुरू कीजिए, इससे रफ़्तार बनती है।",
+      "आपने जितना सोचते हैं उससे ज़्यादा तैयारी की है। छोटे ब्रेक और पूरी नींद आख़िरी वक्त की रटाई से ज़्यादा काम आती है।"
+    ],
+    "anger": [
+      "गुस्सा अक्सर किसी और भावना — दुख या डर — को छुपाता है। बोलने से पहले 10 तक गिनें।",
+      "गुस्सा आना ठीक है। जवाब देने से पहले कुछ मिनट उस जगह से हट जाइए।",
+      "ऐसा क्या हुआ जिससे इतना गुस्सा आया? बात करने से अक्सर गुस्सा कम होता है।"
+    ],
+    "loneliness": [
+      "लोगों के बीच रहकर भी अकेला महसूस होना असली भावना है। आज किसी अपने को एक छोटा सा मैसेज भेजिए।",
+      "अकेलापन दुख देता है। क्या कोई एक इंसान है जिससे आप पहले बात करते थे और आज संपर्क कर सकते हैं?",
+      "मैं अभी आपके साथ हूं। हाल में सबसे ज़्यादा अकेला क्या चीज़ महसूस कराती है?"
+    ],
+    "family": [
+      "घर में तनाव होना आम बात है, आप अकेले नहीं। जो एक बात सबसे ज़्यादा परेशान करती है, सिर्फ उस पर बात कीजिए।",
+      "परिवार में तनाव थका देता है। इसमें अभी सबसे ज़्यादा क्या बात चुभ रही है?",
+      "जब घर शांत न हो तो मुश्किल होती है। क्या यह सोचना मदद करेगा कि आप उनसे क्या कहना चाहेंगे?"
+    ],
+    "addiction": [
+      "नशे से जूझना कमज़ोरी नहीं, स्वास्थ्य मुद्दा है, सहायता मौजूद है। Tele MANAS (14416) पर नज़दीकी केंद्र के बारे में पूछें।",
+      "आदत बदलने की चाह में हिम्मत लगती है। छोटे कदम, जैसे पहली तलब को 10 मिनट टालना, मदद करते हैं।",
+      "इससे जूझना कमज़ोरी नहीं है। क्या आप बताना चाहेंगे कि किस बात से तलब उठती है?"
+    ],
+    "crisis": [
+      "आपने यह बताया, यह बहुत ज़रूरी था। कृपया अभी Tele MANAS (14416, कॉल/SMS, मुफ़्त, 24x7) या KIRAN (1800-599-0019) पर बात करें, और आसपास किसी को बताएं।",
+      "आप जो महसूस कर रहे हैं वह मायने रखता है, और आपको अकेले नहीं झेलना है। कृपया अभी Tele MANAS 14416 (मुफ़्त, 24x7) या 112 पर कॉल करें और पास के किसी को बताएं।",
+      "मुझे आपकी बहुत फ़िक्र है। कृपया अभी KIRAN (1800-599-0019) या Tele MANAS (14416) पर बात करें और किसी भरोसेमंद इंसान के साथ रहें। अगर आप खुद को नुकसान पहुंचा सकते हैं तो 112 पर कॉल करें।"
+    ],
+    "smalltalk": [
+      "मैं सुन रहा हूं, आराम से बताइए। जब मन करे, थोड़ा और बताइए कि क्या हो रहा है।",
+      "मैं यहीं हूं। बताइए आज का दिन कैसा रहा?",
+      "बताने के लिए शुक्रिया। हाल में मन में क्या चल रहा है?"
+    ],
+    "fallback": [
+      "यह बताने के लिए शुक्रिया। क्या आप थोड़ा और बता सकते हैं कि क्या चल रहा है?",
+      "मैं सुन रहा हूं। इसमें अभी सबसे मुश्किल हिस्सा क्या है?",
+      "यह काफ़ी भारी लग रहा है। आप कब से ऐसा महसूस कर रहे हैं?",
+      "मैं बेहतर समझना चाहता हूं। आज ऐसा क्या हुआ जिससे यह बात उठी?",
+      "मैं आपके साथ हूं। और बताना चाहेंगे, या साथ में एक छोटा सा सांस का अभ्यास करें?"
+    ]
+  }
+}

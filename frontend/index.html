@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ManoSaathi</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-inner">
+  <div class="brand"><span class="mark">🪔</span><div><div class="name" id="txtTitle">ManoSaathi</div><div class="tag" id="txtTagline">Mental-health first-aid support for every phone.</div></div></div>
+  <nav class="nav"><button class="nav-btn" id="btnTools">🧘 Tools</button><button class="nav-btn" id="btnKeypad">📟 Keypad mode</button><a class="nav-btn" href="games.html" id="lnkGames">Mini games</a><button class="talk" id="btnTalk" type="button">Talk to a counsellor</button></nav>
+  <div class="lang-switch"><label for="langSelect" id="txtLangLabel">Language</label><select id="langSelect"><option value="en">English</option><option value="hi">हिंदी</option></select></div>
+</div></header>
+
+<div class="crisis-strip" id="crisisStrip"><button class="crisis-toggle" id="crisisToggle">🆘 <span id="txtCrisisTitle">Need support right now?</span><span class="chevron">⌄</span></button><div class="crisis-body" id="crisisBody"></div></div>
+
+<main class="dashboard wrap">
+  <section class="hero-card"><div><div class="eyebrow">PRIVATE • MULTILINGUAL • LOW-BARRIER</div><h1 id="heroTitle">A safe first step when your mind feels heavy.</h1><p id="heroSub">Talk to ManoSaathi, try a calming tool, or connect with a counsellor when you choose.</p></div><button class="hero-help" id="heroHelp">🆘 <span id="heroHelpTxt">I need support</span></button></section>
+
+  <div class="status-row"><span class="status-dot"></span><span id="statusText">ManoSaathi support online</span><span class="privacy-pill">🔒 <span id="privacyText">Chat is not stored</span></span></div>
+
+  <section class="quick-grid" id="quickGrid">
+    <button class="quick-card" data-key="anxiety"><span>😰</span><b id="qAnxiety">Anxious</b><small id="qAnxietySub">Help me calm down</small></button>
+    <button class="quick-card" data-key="low_mood"><span>🌧️</span><b id="qLow">Low mood</b><small id="qLowSub">I want to talk</small></button>
+    <button class="quick-card" data-key="exam_stress"><span>📚</span><b id="qExam">Exam stress</b><small id="qExamSub">I'm overwhelmed</small></button>
+    <button class="quick-card" data-key="sleep"><span>🌙</span><b id="qSleep">Sleep</b><small id="qSleepSub">Help me relax</small></button>
+  </section>
+
+  <section class="chat-panel">
+    <div class="panel-head"><div><h2 id="chatTitle">AI support companion</h2><p id="chatSub">English, Hindi and Hinglish supported.</p></div><span class="live-badge">● LIVE</span></div>
+    <div class="chips" id="chipsRow"></div>
+    <div class="chatbox" id="chatbox" aria-live="polite"></div>
+    <form class="composer" id="composerForm"><input id="chatInput" type="text" autocomplete="off"><button type="submit" id="sendBtn">Send</button></form>
+    <p class="note" id="txtNote">ManoSaathi doesn't save your chat. Messages may be processed by an AI service when enabled.</p>
+  </section>
+
+  <section class="feature-grid">
+    <button class="feature-card" id="wellbeingBtn"><span class="feature-icon">🫶</span><span><b id="wellbeingTitle">Well-being check-in</b><small id="wellbeingSub">A quick reflection — not a diagnosis</small></span><span>→</span></button>
+    <button class="feature-card" id="toolsBtn"><span class="feature-icon">🧘</span><span><b id="toolsTitle">Calm & grounding tools</b><small id="toolsSub">Breathing, grounding and thought reframing</small></span><span>→</span></button>
+    <button class="feature-card" id="keypadBtn"><span class="feature-icon">📟</span><span><b id="keypadTitle">Keypad-phone mode</b><small id="keypadSub">A prototype menu for basic phones</small></span><span>→</span></button>
+    <button class="feature-card" id="counsellorBtn"><span class="feature-icon">👩‍⚕️</span><span><b id="counsellorTitle">Human support</b><small id="counsellorSub">Request a counsellor — optional</small></span><span>→</span></button>
+  </section>
+</main>
+
+<footer><p><a href="admin.html">Admin portal</a></p><p id="txtDisclaimer">This is a hackathon prototype, not a substitute for medical care. If you're in immediate danger, call 112.</p></footer>
+
+<!-- Counsellor modal -->
+<div class="modal" id="supportModal" hidden><form class="modal-card" id="supportForm"><button type="button" class="modal-close" id="sfClose">×</button><h2 id="sfTitle"></h2><p class="note" id="sfIntro"></p><input id="sfName" maxlength="80"><input id="sfContact" maxlength="100" required><textarea id="sfMsg" rows="3" maxlength="1000"></textarea><label class="consent"><input type="checkbox" id="sfConsent" required><span id="sfConsentTxt"></span></label><div class="modal-actions"><button type="button" id="sfCancel"></button><button type="submit" id="sfSend"></button></div><p class="note" id="sfStatus"></p></form></div>
+
+<!-- Well-being modal -->
+<div class="modal" id="wellbeingModal" hidden><div class="modal-card"><button type="button" class="modal-close" data-close="wellbeingModal">×</button><h2 id="wbTitle">How have you been feeling?</h2><p class="note" id="wbIntro">Choose what feels closest. This is a reflection tool, not a diagnosis.</p><div class="checkin-options" id="wbOptions"></div><div id="wbResult" class="result-card" hidden></div></div></div>
+
+<!-- Tools modal -->
+<div class="modal" id="toolsModal" hidden><div class="modal-card wide"><button type="button" class="modal-close" data-close="toolsModal">×</button><h2 id="toolModalTitle">Calm & grounding tools</h2><div class="tool-grid"><button data-tool="breathe">🫁<b id="tb1">Breathing</b><small id="tbs1">Slow your breathing</small></button><button data-tool="ground">🌿<b id="tb2">5-4-3-2-1</b><small id="tbs2">Anchor to the present</small></button><button data-tool="reframe">💭<b id="tb3">Reframe</b><small id="tbs3">Find a balanced thought</small></button><button data-tool="worries">🎈<b id="tb4">Release worries</b><small id="tbs4">Tap away a worry</small></button></div><div id="toolStage" class="tool-stage"></div></div></div>
+
+<!-- Keypad simulator -->
+<div class="modal" id="keypadModal" hidden><div class="modal-card"><button type="button" class="modal-close" data-close="keypadModal">×</button><h2 id="kpTitle">Keypad-phone mode</h2><p class="note" id="kpIntro">Prototype of a low-bandwidth menu flow. No real telecom connection is used in this demo.</p><div class="phone-shell"><div class="phone-screen"><div class="phone-top">MANOSAATHI</div><div id="kpScreen"></div></div><div class="keypad-grid" id="kpKeys"></div></div><button class="primary" id="kpReset">Reset</button></div></div>
+
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ManoSaathi Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="top-inner">
+  <div class="brand"><span class="mark">🪔</span><div class="name">ManoSaathi · Admin</div></div>
+  <button id="logoutBtn" class="talk" hidden>Log out</button>
+</div></header>
+
+<main class="wrap">
+  <form id="loginForm" class="panel">
+    <h2>Admin login</h2>
+    <input id="u" placeholder="Username" autocomplete="username" required>
+    <input id="p" type="password" placeholder="Password" autocomplete="current-password" required>
+    <button type="submit" class="primary">Log in</button>
+    <p id="loginMsg" class="note"></p>
+  </form>
+
+  <section id="dash" hidden>
+    <div class="stats" id="stats"></div>
+    <div class="toolbar">
+      <select id="fSev"><option value="">All severity</option><option value="critical">Critical</option><option value="serious">Serious</option></select>
+      <select id="fStat"><option value="">All status</option><option value="new">New</option><option value="contacted">Contacted</option><option value="closed">Closed</option></select>
+      <button id="exportBtn">Export CSV</button>
+    </div>
+    <div id="cases"></div>
+    <p class="note">Records exist only because the person opted in. Delete a record once it's no longer needed.</p>
+  </section>
+</main>
+<script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "en": [
+    { "name": "Tele MANAS", "number": "14416", "note": "Call or SMS, free, available 24x7" },
+    { "name": "KIRAN", "number": "1800-599-0019", "note": "Government mental health helpline" },
+    { "name": "iCall", "number": "9152987821", "note": "Mon-Sat" },
+    { "name": "Emergency", "number": "112", "note": "If you are in immediate danger" }
+  ],
+  "hi": [
+    { "name": "Tele MANAS", "number": "14416", "note": "कॉल या SMS, मुफ़्त, 24x7 उपलब्ध" },
+    { "name": "KIRAN", "number": "1800-599-0019", "note": "सरकारी मानसिक स्वास्थ्य हेल्पलाइन" },
+    { "name": "iCall", "number": "9152987821", "note": "सोम-शनि" },
+    { "name": "आपातकाल", "number": "112", "note": "तुरंत खतरे में हों तो" }
+  ]
+}

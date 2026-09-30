@@ -1,0 +1,193 @@
+text,lang,intent
+hi,en,greeting
+hello,en,greeting
+hey there,en,greeting
+good morning,en,greeting
+is anyone there,en,greeting
+"hello, I need someone to talk to",en,greeting
+"hi, are you a real person or a bot",en,greeting
+"hey, can we talk for a bit",en,greeting
+नमस्ते,hi,greeting
+हेलो,hi,greeting
+क्या कोई है,hi,greeting
+सुनिए मुझे बात करनी है,hi,greeting
+नमस्ते मुझे मदद चाहिए,hi,greeting
+हेलो क्या आप सुन रहे हैं,hi,greeting
+आप कौन हो,hi,greeting
+हाय थोड़ी बात करनी है,hi,greeting
+thank you,en,thanks
+thanks a lot,en,thanks
+that helped thanks,en,thanks
+i appreciate this,en,thanks
+thank you so much for listening,en,thanks
+ok thanks,en,thanks
+thanks that made me feel a bit better,en,thanks
+really grateful for this,en,thanks
+धन्यवाद,hi,thanks
+शुक्रिया,hi,thanks
+बहुत मदद मिली धन्यवाद,hi,thanks
+अच्छा लगा बात करके,hi,thanks
+सुनने के लिए शुक्रिया,hi,thanks
+ठीक है धन्यवाद,hi,thanks
+थोड़ा अच्छा लगा थैंक यू,hi,thanks
+बहुत एहसानमंद हूं,hi,thanks
+i feel so anxious all the time,en,anxiety
+my heart races before exams,en,anxiety
+i cant stop worrying about everything,en,anxiety
+i feel nervous and cant breathe properly,en,anxiety
+im scared something bad will happen,en,anxiety
+i keep overthinking small things,en,anxiety
+my hands shake when i get anxious,en,anxiety
+i feel restless and on edge lately,en,anxiety
+मुझे हर वक्त बहुत चिंता होती रहती है,hi,anxiety
+परीक्षा से पहले दिल बहुत तेज़ धड़कता है,hi,anxiety
+मैं हर बात को लेकर बहुत सोचता रहता हूं,hi,anxiety
+सांस लेने में परेशानी होती है घबराहट होती है,hi,anxiety
+डर लगता है कि कुछ बुरा हो जाएगा,hi,anxiety
+छोटी छोटी बातों पर भी बहुत सोचता हूं,hi,anxiety
+घबराहट में हाथ कांपने लगते हैं,hi,anxiety
+आजकल बेचैनी बहुत रहती है,hi,anxiety
+i feel really sad and empty lately,en,low_mood
+nothing feels enjoyable anymore,en,low_mood
+i dont want to get out of bed,en,low_mood
+everything feels heavy and pointless,en,low_mood
+i cry for no reason sometimes,en,low_mood
+i feel low and tired all the time,en,low_mood
+i dont feel like doing anything,en,low_mood
+i feel hopeless about everything,en,low_mood
+आजकल मन बहुत उदास और खाली सा रहता है,hi,low_mood
+कुछ भी अच्छा नहीं लगता,hi,low_mood
+बिस्तर से उठने का मन नहीं करता,hi,low_mood
+सब कुछ भारी और बेकार लगता है,hi,low_mood
+कभी कभी बिना वजह रोने लगता हूं,hi,low_mood
+हमेशा थका और उदास महसूस करता हूं,hi,low_mood
+कुछ करने का मन ही नहीं करता,hi,low_mood
+सब कुछ बेकार लगता है कोई उम्मीद नहीं दिखती,hi,low_mood
+i cant sleep at night my mind keeps racing,en,sleep
+i wake up several times every night,en,sleep
+i lie awake for hours before falling asleep,en,sleep
+i feel tired all day because of bad sleep,en,sleep
+i have nightmares almost every night,en,sleep
+i sleep too much but still feel exhausted,en,sleep
+my sleep schedule is completely messed up,en,sleep
+i keep checking my phone instead of sleeping,en,sleep
+रात में सो नहीं पाता दिमाग में बहुत विचार आते हैं,hi,sleep
+रात में कई बार नींद खुल जाती है,hi,sleep
+सोने में घंटों लग जाते हैं,hi,sleep
+नींद पूरी नहीं होती तो दिन भर थकान रहती है,hi,sleep
+रोज़ बुरे सपने आते हैं,hi,sleep
+बहुत सोने के बाद भी थकान रहती है,hi,sleep
+सोने का समय बिल्कुल बिगड़ गया है,hi,sleep
+सोने के बजाय फोन चलाता रहता हूं,hi,sleep
+im so stressed about my upcoming exams,en,exam_stress
+i freeze whenever i sit to study,en,exam_stress
+i feel like ill fail no matter how hard i try,en,exam_stress
+my parents expect too much from my marks,en,exam_stress
+i cant concentrate while studying,en,exam_stress
+i compare my marks with my friends and feel bad,en,exam_stress
+the pressure of results is too much for me,en,exam_stress
+i feel like my whole future depends on this one exam,en,exam_stress
+आने वाली परीक्षा को लेकर बहुत तनाव है,hi,exam_stress
+पढ़ने बैठता हूं तो कुछ समझ नहीं आता,hi,exam_stress
+लगता है जितनी भी मेहनत करूं फेल हो जाऊंगा,hi,exam_stress
+माता-पिता को नंबरों से बहुत उम्मीदें हैं,hi,exam_stress
+पढ़ते वक्त ध्यान नहीं लगता,hi,exam_stress
+दोस्तों के नंबर देखकर बुरा लगता है,hi,exam_stress
+रिज़ल्ट का प्रेशर बहुत ज़्यादा है,hi,exam_stress
+लगता है पूरा भविष्य इस एक परीक्षा पर टिका है,hi,exam_stress
+i get angry over small things very quickly,en,anger
+i shouted at my family again today,en,anger
+i feel like breaking something when im angry,en,anger
+i cant control my temper these days,en,anger
+small arguments make me furious instantly,en,anger
+i regret the things i say when im angry,en,anger
+everyone at home is scared of my anger,en,anger
+i feel rage building up inside me often,en,anger
+छोटी छोटी बातों पर बहुत गुस्सा आ जाता है,hi,anger
+आज फिर घर वालों पर चिल्ला दिया,hi,anger
+गुस्से में कुछ तोड़ने का मन करता है,hi,anger
+आजकल गुस्से पर काबू नहीं रहता,hi,anger
+छोटी बहस में भी बहुत गुस्सा आ जाता है,hi,anger
+गुस्से में जो बोल देता हूं बाद में पछताता हूं,hi,anger
+घर में सब मेरे गुस्से से डरते हैं,hi,anger
+अक्सर अंदर ही अंदर गुस्सा भरता रहता है,hi,anger
+i feel so alone even when im with people,en,loneliness
+i dont have anyone to talk to about this,en,loneliness
+i feel like no one understands me,en,loneliness
+all my friends seem busy with their own lives,en,loneliness
+i feel disconnected from everyone around me,en,loneliness
+i spend most of my time alone at home,en,loneliness
+i feel invisible like nobody notices me,en,loneliness
+i miss having someone to really talk to,en,loneliness
+लोगों के बीच रहकर भी बहुत अकेला महसूस करता हूं,hi,loneliness
+किसी से भी दिल की बात नहीं कर पाता,hi,loneliness
+लगता है कोई मुझे समझता ही नहीं,hi,loneliness
+दोस्त अपनी अपनी ज़िंदगी में व्यस्त हैं,hi,loneliness
+सबसे कटा कटा सा महसूस करता हूं,hi,loneliness
+ज़्यादातर वक्त घर में अकेला ही रहता हूं,hi,loneliness
+लगता है जैसे मुझे कोई देखता ही नहीं,hi,loneliness
+किसी से खुलकर बात करने का मन करता है,hi,loneliness
+theres constant tension at home,en,family
+my parents keep comparing me to others,en,family
+i cant talk openly with my family,en,family
+theres a lot of fighting in my house lately,en,family
+i feel pressured to meet my familys expectations,en,family
+my relationship with my parents is very strained,en,family
+home doesnt feel like a safe place anymore,en,family
+i feel stuck between my family and my own choices,en,family
+घर में हमेशा तनाव बना रहता है,hi,family
+माता-पिता हमेशा दूसरों से तुलना करते हैं,hi,family
+घर में खुलकर बात नहीं कर पाता,hi,family
+आजकल घर में बहुत झगड़े होते हैं,hi,family
+परिवार की उम्मीदों का बहुत दबाव है,hi,family
+माता-पिता से रिश्ते में बहुत खिंचाव है,hi,family
+घर अब सुरक्षित जगह नहीं लगता,hi,family
+परिवार और अपनी पसंद के बीच फंसा हुआ महसूस करता हूं,hi,family
+i cant stop drinking even though i want to,en,addiction
+ive started smoking a lot more than before,en,addiction
+i use substances to cope with stress,en,addiction
+i feel guilty about my drinking but cant stop,en,addiction
+my family is worried about my drinking habits,en,addiction
+i think i might be addicted to something,en,addiction
+i want help to quit but dont know where to start,en,addiction
+i keep relapsing even after trying to quit,en,addiction
+शराब छोड़ना चाहता हूं पर छोड़ नहीं पाता,hi,addiction
+पहले से बहुत ज़्यादा सिगरेट पीने लगा हूं,hi,addiction
+तनाव कम करने के लिए नशा करता हूं,hi,addiction
+नशे को लेकर गिल्ट होता है पर छूटता नहीं,hi,addiction
+घरवाले मेरी नशे की आदत से परेशान हैं,hi,addiction
+लगता है मुझे किसी चीज़ की लत लग गई है,hi,addiction
+छोड़ना चाहता हूं पर समझ नहीं आता कहां से शुरू करूं,hi,addiction
+छोड़ने की कोशिश करता हूं फिर भी वापस शुरू कर देता हूं,hi,addiction
+i dont want to live anymore,en,crisis
+i feel like ending my life,en,crisis
+theres no reason for me to keep going,en,crisis
+i want to disappear forever,en,crisis
+i keep thinking about hurting myself,en,crisis
+i dont see any point in staying alive,en,crisis
+i wish i could just not wake up tomorrow,en,crisis
+i feel like giving up on everything including myself,en,crisis
+मुझे अब जीने का मन नहीं करता,hi,crisis
+मैं अपनी ज़िंदगी खत्म करना चाहता हूं,hi,crisis
+मुझे जीने की कोई वजह नहीं दिखती,hi,crisis
+मैं हमेशा के लिए गायब हो जाना चाहता हूं,hi,crisis
+खुद को नुकसान पहुंचाने के बारे में सोचता रहता हूं,hi,crisis
+ज़िंदा रहने का कोई मतलब नहीं लगता,hi,crisis
+काश कल सुबह मेरी आंख ही न खुले,hi,crisis
+सब कुछ खुद को भी छोड़ देने का मन करता है,hi,crisis
+ok,en,smalltalk
+hmm,en,smalltalk
+i dont know,en,smalltalk
+maybe,en,smalltalk
+fine i guess,en,smalltalk
+not sure,en,smalltalk
+whatever,en,smalltalk
+nothing much,en,smalltalk
+ठीक है,hi,smalltalk
+पता नहीं,hi,smalltalk
+शायद,hi,smalltalk
+ऐसा ही है,hi,smalltalk
+कुछ खास नहीं,hi,smalltalk
+हम्म,hi,smalltalk
+कुछ नहीं,hi,smalltalk
+बस ऐसे ही,hi,smalltalk
